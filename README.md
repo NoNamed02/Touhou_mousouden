@@ -3,11 +3,11 @@ __[동방 망상전 프로젝트]__
 <br/>
 __-참고된 하위 프로젝트-__
 <br/>
-__(동방을 걷다 프로젝트)__
+__(동방을 걷다)__
 <br/>
 https://github.com/NoNamed02/Walk_in_touhou
 
-__(동방 망상전 모바일)__
+__(동방 망상전(구) 모바일)__
 <br/>
 https://github.com/NoNamed02/College/tree/main/GamePrograming/Touhou_game
 
