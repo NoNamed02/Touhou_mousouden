@@ -1,29 +1,27 @@
 # Touhou_mousouden
-__[동방 망상전 프로젝트]__
-<br/>
-__-참고된 하위 프로젝트-__
-<br/>
-__(동방을 걷다)__
-<br/>
-https://github.com/NoNamed02/Walk_in_touhou
 
-__(동방 망상전(구) 모바일)__
-<br/>
-https://github.com/NoNamed02/College/tree/main/GamePrograming/Touhou_game
+<h2 align="center"><strong>[동방 망상전 프로젝트]</strong></h2>
 
-__참고 게임__
-<br/>
-동방 프로젝트 시리즈 - 동방 홍마향
+<hr>
 
+<h3><strong>참고된 하위 프로젝트</strong></h3>
+<ul>
+  <li><a href="https://github.com/NoNamed02/Walk_in_touhou"><strong>동방을 걷다</strong></a></li>
+  <li><a href="https://github.com/NoNamed02/College/tree/main/GamePrograming/Touhou_game"><strong>동방 망상전(구) 모바일</strong></a></li>
+</ul>
 
--------------------------------------------------------------------------------------------
-__개발 환경__
-<br/>
-Window 11
-<br/>
-__사용 엔진, 프로그램__
-<br/>
-Adobe Photoshop 2023
-<br/>
-Unity 2022.03.25f
-<br/>
+<h3><strong>참고 게임</strong></h3>
+<p>동방 프로젝트 시리즈 - 동방 홍마향</p>
+
+<hr>
+
+<h3><strong>개발 환경</strong></h3>
+<ul>
+  <li><strong>OS</strong>: Windows 11</li>
+</ul>
+
+<h3><strong>사용 엔진, 프로그램</strong></h3>
+<ul>
+  <li><strong>그래픽 툴</strong>: Adobe Photoshop 2023</li>
+  <li><strong>게임 엔진</strong>: Unity 2022.03.25f</li>
+</ul>
