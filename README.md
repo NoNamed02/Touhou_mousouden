@@ -2,6 +2,10 @@
 
 <h2 align="center"><strong>[동방 망상전 프로젝트]</strong></h2>
 
+[![Video Label](http://img.youtube.com/vi/qxN73LHchr8/0.jpg)](https://youtu.be/qxN73LHchr8)
+
+
+
 <hr>
 
 <h3><strong>참고된 하위 프로젝트</strong></h3>
