@@ -14497,7 +14497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  HP: 1000
+  HP: 500
   phase: 0
   bulletPrefab: {fileID: 913279351592663345, guid: dd2a2a4d758ebb24ead8630bffb2bda3, type: 3}
   bulletPrefab2: {fileID: 913279351592663345, guid: 9f5a399442dfafd49a2734cc75885465, type: 3}

@@ -20,6 +20,10 @@ public class txt_remilia : MonoBehaviour
     public GameObject remilia_;
     
     public GameObject Loading;
+    
+    public GameObject choice_btn;
+    
+    public Button _choice_btn;
 
     private bool next = false;
     private bool can_talk = true;
@@ -38,6 +42,7 @@ public class txt_remilia : MonoBehaviour
         colSize = lines[0].Split('\t').Length;
 
         Sentence = new string[rowSize, colSize];
+        _choice_btn.onClick.AddListener(choice);
 
 
         for (int i = 0; i < rowSize; i++)
@@ -61,6 +66,11 @@ public class txt_remilia : MonoBehaviour
         GAMEMANAGER.instance.spellCard_count = 4;
         GAMEMANAGER.instance.enemy_break_count = 0;
         strar_chat();
+    }
+    void choice(){
+        currentLine = 7;
+        DisplayNextSentence();
+        choice_btn.SetActive(false);
     }
 
     void strar_chat(){
@@ -129,6 +139,9 @@ public class txt_remilia : MonoBehaviour
         if(Sentence[currentLine,8]=="1" && next == false){
             StartCoroutine(next_scence());
             next = true;
+        }
+        if(Sentence[currentLine+1,8]=="5"){
+            choice_btn.SetActive(true);
         }
             
         if(Sentence[currentLine+1,2]!="end"){

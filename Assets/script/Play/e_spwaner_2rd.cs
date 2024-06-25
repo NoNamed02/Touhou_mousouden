@@ -27,7 +27,7 @@ public class e_spawn_2rd : MonoBehaviour
         if(GAMEMANAGER.instance.game_start){
             int rand_n = Random.Range(1, 4);
             i++;
-            if (i % 100 == 0 && GAMEMANAGER.instance.enemy_break_count < 120) // N체 격추까지 잡몹소환
+            if (i % 100 == 0 && GAMEMANAGER.instance.enemy_break_count < 60) // N체 격추까지 잡몹소환
             {
                 if(rand_n == 1){
                     int randomNumber = Random.Range(-4, 4);
@@ -61,7 +61,7 @@ public class e_spawn_2rd : MonoBehaviour
                     Instantiate(enemy2, newPosition6, Quaternion.identity);
                 }
             }
-            else if(GAMEMANAGER.instance.enemy_break_count >= 120 && is_end == false){
+            else if(GAMEMANAGER.instance.enemy_break_count >= 60 && is_end == false){
                 talk_Bg.gameObject.SetActive(true);
                 is_end = true;
                 GAMEMANAGER.instance.game_start = false;

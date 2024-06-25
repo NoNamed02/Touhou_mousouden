@@ -204,11 +204,11 @@ public class yukari_boss : MonoBehaviour
             if(GAMEMANAGER.instance.game_start){
                 int b_ro = 60;
                 float angle = 0 + (10f * i);
-                //Quaternion rotation = Quaternion.Euler(0f, 0f, angle);
-                //Quaternion rotation2 = Quaternion.Euler(0f, 0f, angle * -1f);
                 for(int j = 0; j<6; j++){
-                    Instantiate(bulletPrefab4, bulletSpawnPoint.position, Quaternion.Euler(0f, 0f, angle+(b_ro*j)));
-                    Instantiate(bulletPrefab5, bulletSpawnPoint.position, Quaternion.Euler(0f, 0f, (angle * -1f) - (b_ro*j)));
+                    Instantiate(bulletPrefab4, bulletSpawnPoint.position,
+                    Quaternion.Euler(0f, 0f, angle+(b_ro*j)));
+                    Instantiate(bulletPrefab5, bulletSpawnPoint.position,
+                    Quaternion.Euler(0f, 0f, (angle * -1f) - (b_ro*j)));
                 }
             }
             yield return new WaitForSeconds(0.1f); // 0.03초 간격으로 발사
@@ -249,12 +249,12 @@ public class yukari_boss : MonoBehaviour
         isRecovering = true;
         float recoverySpeed = 500f;
 
-        while (HP < 1000)
+        while (HP < 500)
         {
             HP += recoverySpeed * Time.deltaTime;
-            if (HP > 1000)
+            if (HP > 500)
             {
-                HP = 1000;
+                HP = 500;
             }
             yield return null;
         }
