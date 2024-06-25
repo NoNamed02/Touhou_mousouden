@@ -21,7 +21,9 @@ __개발 환경__
 <br/>
 Window 11
 <br/>
+__사용 엔진, 프로그램__
 <br/>
 Adobe Photoshop 2023
+<br/>
 Unity 2022.03.25f
 <br/>
