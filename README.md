@@ -17,7 +17,7 @@
 
 <h3><strong>개발 환경</strong></h3>
 <ul>
-  <li><strong>OS</strong>: Windows 11</li>
+  <li><strong>OS</strong>: Windows 11(64bit)</li>
 </ul>
 
 <hr>
