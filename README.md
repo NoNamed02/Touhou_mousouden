@@ -20,6 +20,13 @@
   <li><strong>OS</strong>: Windows 11</li>
 </ul>
 
+<hr>
+
+<h3><strong>사용 언어</strong></h3>
+<ul>
+  <li></strong>C#</li>
+</ul>
+
 <h3><strong>사용 엔진, 프로그램</strong></h3>
 <ul>
   <li><strong>그래픽 툴</strong>: Adobe Photoshop 2023</li>
