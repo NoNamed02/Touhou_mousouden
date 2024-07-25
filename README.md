@@ -1,11 +1,11 @@
-# Touhou_mousouden
-
 <h2 align="center"><strong>[동방 망상전 프로젝트]</strong></h2>
 <img src="https://github.com/user-attachments/assets/9e749692-258d-46de-b53c-10bbb716bedd">
 
-[![Video Label](http://img.youtube.com/vi/qxN73LHchr8/0.jpg)](https://youtu.be/qxN73LHchr8)
-
-
+<div style="text-align: center;">
+  <a href="https://youtu.be/qxN73LHchr8">
+    <img src="http://img.youtube.com/vi/qxN73LHchr8/0.jpg" alt="Video Label">
+  </a>
+</div>
 
 <hr>
 
@@ -32,7 +32,7 @@ __목표__<br>
 
 <h3><strong>사용 언어</strong></h3>
 <ul>
-  <li></strong>C#</li>
+  <li>C#</li>
 </ul>
 
 <h3><strong>사용 엔진, 프로그램</strong></h3>
