@@ -1,7 +1,7 @@
 # Touhou_mousouden
 
 <h2 align="center"><strong>[동방 망상전 프로젝트]</strong></h2>
-![스크린샷 2024-07-25 213959](https://github.com/user-attachments/assets/7cff0c39-f005-4013-b763-8fdc84b72cb7)
+![image002](https://github.com/user-attachments/assets/9e749692-258d-46de-b53c-10bbb716bedd)
 
 [![Video Label](http://img.youtube.com/vi/qxN73LHchr8/0.jpg)](https://youtu.be/qxN73LHchr8)
 
